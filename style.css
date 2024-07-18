@@ -53,11 +53,12 @@
 .hero-h {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 50px;
+  font-size: 78px;
   font-weight: 900;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
+  padding-bottom: 20px;
 }
 .h-left {
   padding-left: 100px;
@@ -65,12 +66,16 @@
 }
 
 .h-img {
-  padding-right: 40px;
-  position: absolute;
+  /* padding-right: 40px; */
+  /* position: absolute; */
   width: 349px;
-  height: 580px;
-  left: 877px;
+  /* height: 580px; */
+  /* left: 877px; */
   top: 135px;
+}
+.span {
+  font-style: italic;
+  font-size: 90px;
 }
 
 .hero-p {
@@ -81,4 +86,100 @@
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
+  margin-bottom: 24px;
+}
+
+/* habit */
+.habit-h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.habit-p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.card {
+  text-align: center;
+}
+.img-section {
+  margin-top: 56px;
+  margin-bottom: 70px;
+  display: flex;
+  gap: 50px;
+}
+.img-sec {
+  border-radius: 100px;
+  margin-left: 30px;
+}
+.sec-h {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  /* letter-spacing: 0%;
+text-align: left; */
+}
+.sec-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+/* 
+run  */
+.run-h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.run-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.run-btn {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 13px 40px 13px 40px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+
+.run-main {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+  padding: 40px;
+  background: rgb(34, 34, 34);
+}
+
+.run-img {
+  width: 366px;
+  border-radius: 18px;
+  height: 312px;
+  left: 662px;
+  top: 30px;
 }
