@@ -183,3 +183,23 @@ run  */
   left: 662px;
   top: 30px;
 }
+
+.bmi-h {
+  color: rgb(255, 255, 255);
+
+  font-size: 39px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.bmi-p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.calculator {
+  background: rgb(34, 34, 34);
+}
