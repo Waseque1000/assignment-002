@@ -223,10 +223,22 @@ run  */
 }
 
 .footer-services {
-  color: wheat;
+  color: rgb(255, 255, 255);
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copy {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 23px;
 }
