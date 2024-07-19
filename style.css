@@ -203,3 +203,30 @@ run  */
 .calculator {
   background: rgb(34, 34, 34);
 }
+
+/*  footer */
+.foot-h1 {
+  font-size: 60px;
+  color: red;
+}
+
+.foot-p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.foot-h2 {
+  color: wheat;
+  font-size: 30px;
+}
+
+.footer-services {
+  color: wheat;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
