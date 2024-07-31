@@ -195,6 +195,7 @@ run  */
 .bmi-p {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -202,6 +203,37 @@ run  */
 
 .calculator {
   background: rgb(34, 34, 34);
+  color: rgb(168, 160, 160);
+  padding: 30px;
+}
+.calculator h1 h2 th {
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+.calculator table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #858282;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  /* background-color: #f2f2f2; */
+  font-weight: bold;
+}
+
+.calculator-chart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  color: rgb(34, 34, 34);
 }
 
 /*  footer */
